@@ -2,6 +2,7 @@
 
 ## Repository Overview
 This repository contains several Python scripts and Jupyter notebooks for the ProgrammingTask
+
 Here's a brief overview of each file:
 
 - `datahandler.py`: Contains methods for reading and preprocessing the data.
@@ -11,7 +12,8 @@ Here's a brief overview of each file:
 - `evaluator.py`: Contains the method for evaluating the model's performance.
 
 The trained models are located in the "models" directory on the format:
-<model_type>/<forecast_steps>/<participant>.pth
+
+`<model_type>/<forecast_steps>/<participantID>.pth`
 
 The scalers are located in the "scalers" directory.
 
